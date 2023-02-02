@@ -1,4 +1,3 @@
-/\*\*
 Write a function "transformer()" that will take in a JSON and do the following transformations
 
 1.  If the key ends with "\_price",
@@ -15,15 +14,12 @@ transformation.
 The transformer should do a deep transformation by going through all the keys in the JSON i.e. if during parsing an
 array/object is encountered, each element/property of that array/object should be further parsed based on the above
 rules
-\*/
 
 ```
 function transformer(json) {
     // code goes here
 }
 ```
-
-/\*_ Test case execution _ \*/
 
 ```
 const testCase = {
