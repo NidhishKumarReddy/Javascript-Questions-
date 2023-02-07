@@ -46,7 +46,7 @@ function compareObjects(object1, object2) {
         if (!keys2.includes(key)) {
             return false;
         }
-        // If current key is there in both keys1 and keys2 call recursion
+        // If current key is there in both keys1 and keys2 call recursion for the current value in both the objects
         if (!compareObjects(object1[key], object2[key])) {
             return false;
         }
